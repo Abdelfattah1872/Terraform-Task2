@@ -1,0 +1,594 @@
+[    2.900455] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    2.905155] x86/mm: Checking user space page tables
+[    2.957662] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    2.962017] Run /sbin/init as init process
+[    3.242907] systemd[1]: Inserted module 'autofs4'
+[    3.264988] systemd[1]: systemd 245.4-4ubuntu3.22 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+[    3.289330] systemd[1]: Detected virtualization xen.
+[    3.294935] systemd[1]: Detected architecture x86-64.
+
+Welcome to [1mUbuntu 20.04.6 LTS[0m!
+
+[    3.319923] systemd[1]: Set hostname to <ubuntu>.
+[    3.327488] systemd[1]: Initializing machine ID from random generator.
+[    3.507527] systemd[1]: Installed transient /etc/machine-id file.
+[    3.877190] systemd[1]: Created slice system-modprobe.slice.
+[[0;32m  OK  [0m] Created slice [0;1;39msystem-modprobe.slice[0m.
+[    3.884372] systemd[1]: Created slice system-serial\x2dgetty.slice.
+[[0;32m  OK  [0m] Created slice [0;1;39msystem-serial\x2dgetty.slice[0m.
+[    3.892008] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+[[0;32m  OK  [0m] Created slice [0;1;39msystem-systemd\x2dfsck.slice[0m.
+[    3.899511] systemd[1]: Created slice User and Session Slice.
+[[0;32m  OK  [0m] Created slice [0;1;39mUser and Session Slice[0m.
+[    3.906075] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password Râ¦uests to Wall Directory Watch[0m.
+[    3.916069] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[0;32m  OK  [0m] Set up automount [0;1;39mArbitraryâ¦s File System Automount Point[0m.
+[    3.932283] systemd[1]: Reached target User and Group Name Lookups.
+[[0;32m  OK  [0m] Reached target [0;1;39mUser and Group Name Lookups[0m.
+[    3.941849] systemd[1]: Reached target Slices.
+[[0;32m  OK  [0m] Reached target [0;1;39mSlices[0m.
+[    3.947482] systemd[1]: Reached target Mounting snaps.
+[[0;32m  OK  [0m] Reached target [0;1;39mMounting snaps[0m.
+[    3.953732] systemd[1]: Reached target Swap.
+[[0;32m  OK  [0m] Reached target [0;1;39mSwap[0m.
+[    3.959010] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[[0;32m  OK  [0m] Listening on [0;1;39mDevice-mapper event daemon FIFOs[0m.
+[    3.966798] systemd[1]: Listening on LVM2 poll daemon socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mLVM2 poll daemon socket[0m.
+[    3.973893] systemd[1]: Listening on multipathd control socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mmultipathd control socket[0m.
+[    3.981126] systemd[1]: Listening on Syslog Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mSyslog Socket[0m.
+[    3.987033] systemd[1]: Listening on fsck to fsckd communication Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mfsck to fsckd communication Socket[0m.
+[    3.994774] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[[0;32m  OK  [0m] Listening on [0;1;39minitctl Compatibility Named Pipe[0m.
+[    4.002533] systemd[1]: Listening on Journal Audit Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mJournal Audit Socket[0m.
+[    4.008913] systemd[1]: Listening on Journal Socket (/dev/log).
+[[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket (/dev/log)[0m.
+[    4.015890] systemd[1]: Listening on Journal Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket[0m.
+[    4.022435] systemd[1]: Listening on Network Service Netlink Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mNetwork Service Netlink Socket[0m.
+[    4.030364] systemd[1]: Listening on udev Control Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mudev Control Socket[0m.
+[    4.040250] systemd[1]: Listening on udev Kernel Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mudev Kernel Socket[0m.
+[    4.051364] systemd[1]: Mounting Huge Pages File System...
+         Mounting [0;1;39mHuge Pages File System[0m...
+[    4.062609] systemd[1]: Mounting POSIX Message Queue File System...
+         Mounting [0;1;39mPOSIX Message Queue File System[0m...
+[    4.074765] systemd[1]: Mounting Kernel Debug File System...
+         Mounting [0;1;39mKernel Debug File System[0m...
+[    4.086895] systemd[1]: Mounting Kernel Trace File System...
+         Mounting [0;1;39mKernel Trace File System[0m...
+[    4.097375] systemd[1]: Starting Journal Service...
+         Starting [0;1;39mJournal Service[0m...
+[    4.111153] systemd[1]: Starting Set the console keyboard layout...
+         Starting [0;1;39mSet the console keyboard layout[0m...
+[    4.148122] systemd[1]: Starting Create list of static device nodes for the current kernel...
+         Starting [0;1;39mCreate list of stâ¦odes for the current kernel[0m...
+[    4.183146] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+         Starting [0;1;39mMonitoring of LVMâ¦meventd or progress polling[0m...
+[    4.237340] systemd[1]: Starting Load Kernel Module chromeos_pstore...
+         Starting [0;1;39mLoad Kernel Module chromeos_pstore[0m...
+[    4.263166] systemd[1]: Starting Load Kernel Module drm...
+         Starting [0;1;39mLoad Kernel Module drm[0m...
+[    4.280863] systemd[1]: Starting Load Kernel Module efi_pstore...
+         Starting [0;1;39mLoad Kernel Module efi_pstore[0m...
+[    4.295239] systemd[1]: Starting Load Kernel Module pstore_blk...
+         Starting [0;1;39mLoad Kernel Module pstore_blk[0m...
+[    4.304696] systemd[1]: Starting Load Kernel Module pstore_zone...
+         Starting [0;1;39mLoad Kernel Module pstore_zone[0m...
+[    4.336602] systemd[1]: Starting Load Kernel Module ramoops...
+         Starting [0;1;39mLoad Kernel Module ramoops[0m...
+[    4.353303] systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+[    4.368338] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[    4.382764] systemd[1]: Starting File System Check on Root Device...
+         Starting [0;1;39mFile System Check on Root Device[0m...
+[    4.403158] systemd[1]: Starting Load Kernel Modules...
+         Starting [0;1;39mLoad Kernel Modules[0m...
+[    4.420130] systemd[1]: Starting udev Coldplug all Devices...
+         Starting [0;1;39mudev Coldplug all Devices[0m...
+[    4.438282] systemd[1]: Starting Uncomplicated firewall...
+         Starting [0;1;39mUncomplicated firewall[0m...
+[    4.465061] systemd[1]: Started Journal Service.
+[[0;32m  OK  [0m] Started [0;1;39mJournal Service[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mHuge Pages File System[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mPOSIX Message Queue File System[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mKernel Debug File System[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mKernel Trace File System[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mSet the console keyboard layout[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate list of stâ¦ nodes for the current kernel[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module chromeos_pstore[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module drm[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module efi_pstore[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module pstore_blk[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module pstore_zone[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module ramoops[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mFile System Check on Root Device[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Modules[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mUncomplicated firewall[0m.
+         Mounting [0;1;39mFUSE Control File System[0m...
+         Mounting [0;1;39mKernel Configuration File System[0m...
+[[0;32m  OK  [0m] Started [0;1;39mFile System Check Daemon to report status[0m.
+         Starting [0;1;39mRemount Root and Kernel File Systems[0m...
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Mounted [0;1;39mFUSE Control File System[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mKernel Configuration File System[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mudev Coldplug all Devices[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRemount Root and Kernel File Systems[0m.
+         Starting [0;1;39mFlush Journal to Persistent Storage[0m...
+         Starting [0;1;39mLoad/Save Random Seed[0m...
+         Starting [0;1;39mCreate System Users[0m...
+         Starting [0;1;39mudev Wait for Complete Device Initialization[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mLoad/Save Random Seed[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mFlush Journal to Persistent Storage[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate System Users[0m.
+         Starting [0;1;39mCreate Static Device Nodes in /dev[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Static Device Nodes in /dev[0m.
+         Starting [0;1;39mudev Kernel Device Manager[0m...
+[[0;32m  OK  [0m] Started [0;1;39mudev Kernel Device Manager[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDispatch Password â¦ts to Console Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mLoad/Save RF â¦itch Status /dev/rfkill Watch[0m.
+         Mounting [0;1;39mArbitrary Executable File Formats File System[0m...
+[[0;32m  OK  [0m] Mounted [0;1;39mArbitrary Executable File Formats File System[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/disk/by-label/UEFI[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mudev Wait for Complete Device Initialization[0m.
+         Starting [0;1;39mDevice-Mapper Multipath Device Controller[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mMonitoring of LVMâ¦ dmeventd or progress polling[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDevice-Mapper Multipath Device Controller[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal File Systems (Pre)[0m.
+         Mounting [0;1;39mMount unit for amâ¦on-ssm-agent, revision 6563[0m...
+         Mounting [0;1;39mMount unit for core18, revision 2785[0m...
+         Mounting [0;1;39mMount unit for core20, revision 1950[0m...
+         Mounting [0;1;39mMount unit for lxd, revision 24061[0m...
+         Mounting [0;1;39mMount unit for snapd, revision 19457[0m...
+         Starting [0;1;39mFile System Check on /dev/disk/by-label/UEFI[0m...
+[[0;32m  OK  [0m] Mounted [0;1;39mMount unit for snapd, revision 19457[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mMount unit for core20, revision 1950[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mMount unit for amazon-ssm-agent, revision 6563[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mMount unit for core18, revision 2785[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mFile System Check on /dev/disk/by-label/UEFI[0m.
+         Mounting [0;1;39m/boot/efi[0m...
+[[0;32m  OK  [0m] Mounted [0;1;39mMount unit for lxd, revision 24061[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39m/boot/efi[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mMounted snaps[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal File Systems[0m.
+         Starting [0;1;39mLoad AppArmor profiles[0m...
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mCreate final runtâ¦dir for shutdown pivot root[0m...
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCommit a transient machine-id on disk[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate final runtâ¦e dir for shutdown pivot root[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCommit a transient machine-id on disk[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad AppArmor profiles[0m.
+         Starting [0;1;39mLoad AppArmor proâ¦managed internally by snapd[0m...
+         Starting [0;1;39mInitial cloud-init job (pre-networking)[0m...
+[    9.272639] cloud-init[374]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'init-local' at Wed, 12 Jul 2023 07:12:18 +0000. Up 8.26 seconds.
+[[0;32m  OK  [0m] Finished [0;1;39mInitial cloud-init job (pre-networking)[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork (Pre)[0m.
+         Starting [0;1;39mNetwork Service[0m...
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Service[0m.
+         Starting [0;1;39mWait for Network to be Configured[0m...
+         Starting [0;1;39mNetwork Name Resolution[0m...
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Name Resolution[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mHost and Network Name Lookups[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad AppArmor proâ¦s managed internally by snapd[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mWait for Network to be Configured[0m.
+         Starting [0;1;39mInitial cloud-iniâ¦ (metadata service crawler)[0m...
+[   11.339886] cloud-init[424]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'init' at Wed, 12 Jul 2023 07:12:21 +0000. Up 11.18 seconds.
+[   11.349299] cloud-init[424]: ci-info: +++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+[   11.359509] cloud-init[424]: ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+[   11.373516] cloud-init[424]: ci-info: | Device |  Up  |          Address          |      Mask     | Scope  |     Hw-Address    |
+[   11.385745] cloud-init[424]: ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+[   11.400406] cloud-init[424]: ci-info: |  eth0  | True |         10.0.1.39         | 255.255.255.0 | global | 02:04:82:04:ed:b3 |
+[   11.413597] cloud-init[424]: ci-info: |  eth0  | True | fe80::4:82ff:fe04:edb3/64 |       .       |  link  | 02:04:82:04:ed:b3 |
+[   11.424523] cloud-init[424]: ci-info: |   lo   | True |         127.0.0.1         |   255.0.0.0   |  host  |         .         |
+[   11.436070] cloud-init[424]: ci-info: |   lo   | True |          ::1/128          |       .       |  host  |         .         |
+[   11.445688] cloud-init[424]: ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+[   11.456822] cloud-init[424]: ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+[   11.464657] cloud-init[424]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+[   11.475587] cloud-init[424]: ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+[   11.482663] cloud-init[424]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+[   11.488000] cloud-init[424]: ci-info: |   0   |   0.0.0.0   | 10.0.1.1 |     0.0.0.0     |    eth0   |   UG  |
+[   11.493513] cloud-init[424]: ci-info: |   1   |   10.0.1.0  | 0.0.0.0  |  255.255.255.0  |    eth0   |   U   |
+[   11.501101] cloud-init[424]: ci-info: |   2   |   10.0.1.1  | 0.0.0.0  | 255.255.255.255 |    eth0   |   UH  |
+[   11.506437] cloud-init[424]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+[   11.511775] cloud-init[424]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+[   11.517086] cloud-init[424]: ci-info: +-------+-------------+---------+-----------+-------+
+[   11.525537] cloud-init[424]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+[   11.535254] cloud-init[424]: ci-info: +-------+-------------+---------+-----------+-------+
+[   11.546283] cloud-init[424]: ci-info: |   1   |  fe80::/64  |    ::   |    eth0   |   U   |
+[   11.559144] cloud-init[424]: ci-info: |   3   |    local    |    ::   |    eth0   |   U   |
+[   11.566793] cloud-init[424]: ci-info: |   4   |  multicast  |    ::   |    eth0   |   U   |
+[   11.571690] cloud-init[424]: ci-info: +-------+-------------+---------+-----------+-------+
+[   12.463045] cloud-init[424]: Generating public/private rsa key pair.
+[   12.468908] cloud-init[424]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+[   12.485212] cloud-init[424]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+[   12.501201] cloud-init[424]: The key fingerprint is:
+[   12.508932] cloud-init[424]: SHA256:MPPRe2Pb1fi3wKfi/02tITLu1i4xYe5FpZHJftifE5E root@ip-10-0-1-39
+[   12.520957] cloud-init[424]: The key's randomart image is:
+[   12.532413] cloud-init[424]: +---[RSA 3072]----+
+[   12.536366] cloud-init[424]: |           . o  .|
+[   12.544410] cloud-init[424]: |         .  = .E |
+[   12.552496] cloud-init[424]: |      + . .. *  .|
+[   12.565138] cloud-init[424]: |       = .o.= oo.|
+[   12.572498] cloud-init[424]: |        So.o+...=|
+[   12.580504] cloud-init[424]: |          +oo+ =o|
+[   12.588507] cloud-init[424]: |         .o=ooo.*|
+[   12.596439] cloud-init[424]: |         .++..+++|
+[[0;32m  OK  [0m] Finished [0;1;39mInitial cloud-iniâ¦ob (metadata service crawler)[0m.
+[   12.606276] cloud-init[424]: |         o+++ooo.|
+[   12.609926] cloud-init[424]: +----[SHA256]-----+
+[[0;32m  OK  [0m] Reached target [0;1;39mCloud-config availability[0m.
+[   12.616590] cloud-init[424]: Generating public/private dsa key pair.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork is Online[0m.
+[   12.625278] cloud-init[424]: Your identification has been saved in /etc/ssh/ssh_host_dsa_key
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
+[   12.637521] cloud-init[424]: Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub
+[   12.644498] cloud-init[424]: The key fingerprint is:
+[[0;32m  OK  [0m] Started [0;1;39mACPI Events Check[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
+[   12.652416] cloud-init[424]: SHA256:a+2pKCrHtlWlbqNXI+ujqvjkpJuHEfdjL0eTgQsjEtw root@ip-10-0-1-39
+[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
+[   12.668391] cloud-init[424]: The key's randomart image is:
+[[0;32m  OK  [0m] Started [0;1;39mPeriodic ext4 Onliâ¦ata Check for All Filesystems[0m.
+[   12.677260] cloud-init[424]: +---[DSA 1024]----+
+[   12.680055] cloud-init[424]: |. .              |
+[[0;32m  OK  [0m] Started [0;1;39mDiscard unused blocks once a week[0m.
+[   12.685413] cloud-init[424]: |.. E             |
+[[0;32m  OK  [0m] Started [0;1;39mRefresh fwupd metadata regularly[0m.
+[   12.692218] cloud-init[424]: | .   .  .        |
+[   12.695007] cloud-init[424]: |+ + . .o         |
+[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
+[   12.700908] cloud-init[424]: |.+ + .ooS        |
+[   12.703945] cloud-init[424]: |.   =o= oo       |
+[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
+[[0;32m  OK  [0m] Started [0;1;39mMessage of the Day[0m.
+[   12.712735] cloud-init[424]: | +o..++=o..      |
+[   12.715199] cloud-init[424]: |+*=.oo*+ . .     |
+[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
+[   12.723840] cloud-init[424]: |*O*+oBo...o      |
+[[0;32m  OK  [0m] Started [0;1;39mUbuntu Advantage Timer for running repeated jobs[0m.
+[   12.733724] cloud-init[424]: +----[SHA256]-----+
+[   12.738431] cloud-init[424]: Generating public/private ecdsa key pair.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[   12.747763] cloud-init[424]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+[   12.760439] cloud-init[424]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+[[0;32m  OK  [0m] Listening on [0;1;39mACPID Listen Socket[0m.
+[   12.773947] cloud-init[424]: The key fingerprint is:
+[[0;32m  OK  [0m] Listening on [0;1;39mcloud-init hotplug hook socket[0m.
+[   12.784900] cloud-init[424]: SHA256:3oR+/bx2CuiL/z1npgw50udnaceh3HktxJngw/gpB88 root@ip-10-0-1-39
+[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
+[   12.800676] cloud-init[424]: The key's randomart image is:
+[   12.803636] cloud-init[424]: +---[ECDSA 256]---+
+[[0;32m  OK  [0m] Listening on [0;1;39mOpen-iSCSI iscsid Socket[0m.
+[   12.811470] cloud-init[424]: |                 |
+         Starting [0;1;39mSocket activation for snappy daemon[0m.
+[   12.825758] cloud-init[424]: |                 |
+[[0;32m  OK  [0m] Listening on [0;1;39mUUID daemon activation socket[0m.
+[   12.838443] cloud-init[424]: |                 |
+[[0;32m  OK  [0m] Reached target [0;1;39mRemote File Systems (Pre)[0m.
+[   12.850886] cloud-init[424]: |         .  .    |
+[[0;32m  OK  [0m] Reached target [0;1;39mRemote File Systems[0m.
+[   12.862270] cloud-init[424]: |        S .+ o o |
+         Starting [0;1;39mAvailability of block devices[0m...
+[   12.874195] cloud-init[424]: |       o oo++.=. |
+[[0;32m  OK  [0m] Listening on [0;1;39mSocket activation for snappy daemon[0m.
+[   12.887710] cloud-init[424]: |        o ==O++.=|
+[[0;32m  OK  [0m] Finished [0;1;39mAvailability of block devices[0m.
+[   12.898110] cloud-init[424]: |         +..E&+=%|
+[   12.903294] cloud-init[424]: |        ..+=..@&o|
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[   12.911445] cloud-init[424]: +----[SHA256]-----+
+[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
+[   12.920481] cloud-init[424]: Generating public/private ed25519 key pair.
+         Starting [0;1;39mAccounts Service[0m...
+[   12.932642] cloud-init[424]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+[[0;32m  OK  [0m] Started [0;1;39mACPI event daemon[0m.
+[   12.948337] cloud-init[424]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+         Starting [0;1;39mLSB: automatic crash report generation[0m...
+[   12.966743] cloud-init[424]: The key fingerprint is:
+         Starting [0;1;39mDeferred execution scheduler[0m...
+[   12.978728] cloud-init[424]: SHA256:jpP/22mgjMFH+wXMSghq0Pb31fvsR3DyXbzRU2ZS/40 root@ip-10-0-1-39
+[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
+[   12.991499] cloud-init[424]: The key's randomart image is:
+[   12.998706] cloud-init[424]: +--[ED25519 256]--+
+[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
+[   13.006693] cloud-init[424]: | .             ..|
+[   13.012421] cloud-init[424]: |. o .         . =|
+[[0;32m  OK  [0m] Started [0;1;39mSave initial kernel messages after boot[0m.
+[   13.023501] cloud-init[424]: | o o . . o .   =+|
+[   13.029377] cloud-init[424]: |  o . o o = . o+B|
+         Starting [0;1;39mRemove Stale Onliâ¦t4 Metadata Check Snapshots[0m...
+[   13.044883] cloud-init[424]: | .   o +S+ . .E=O|
+[   13.055745] cloud-init[424]: |      o+= . o  .+|
+         Starting [0;1;39mEC2 Instance Connect Host Key Harvesting[0m...
+[   13.074362] cloud-init[424]: |      +=.o o o . |
+         Starting [0;1;39mRecord successful boot for GRUB[0m...
+[   13.092988] cloud-init[424]: |      .oo ....o .|
+[   13.099801] cloud-init[424]: |        ..ooo... |
+[[0;32m  OK  [0m] Started [0;1;39mirqbalance daemon[0m.
+[   13.111679] cloud-init[424]: +----[SHA256]-----+
+         Starting [0;1;39mDispatcher daemon for systemd-networkd[0m...
+         Starting [0;1;39mAuthorization Manager[0m...
+         Starting [0;1;39mPollinate to seedâ¦udo random number generator[0m...
+         Starting [0;1;39mSystem Logging Service[0m...
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts (Pre)[0m.
+         Starting [0;1;39mSnap Daemon[0m...
+         Starting [0;1;39mLogin Service[0m...
+         Starting [0;1;39mPermit User Sessions[0m...
+         Starting [0;1;39mDisk Manager[0m...
+[[0;32m  OK  [0m] Started [0;1;39mDeferred execution scheduler[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRemove Stale Onliâ¦ext4 Metadata Check Snapshots[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mPermit User Sessions[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRecord successful boot for GRUB[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDispatcher daemon for systemd-networkd[0m.
+[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
+[[0;32m  OK  [0m] Started [0;1;39mAccounts Service[0m.
+[[0;32m  OK  [0m] Started [0;1;39mLogin Service[0m.
+[[0;32m  OK  [0m] Started [0;1;39mLSB: automatic crash report generation[0m.
+[[0;32m  OK  [0m] Started [0;1;39mAuthorization Manager[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDisk Manager[0m.
+         Starting [0;1;39mModem Manager[0m...
+         Starting [0;1;39mGRUB failed boot detection[0m...
+         Starting [0;1;39mHold until boot process finishes up[0m...
+         Starting [0;1;39mTerminate Plymouth Boot Screen[0m...
+         Starting [0;1;39mHostname Service[0m...
+[[0;32m  OK  [0m] Started [0;1;39mUnattended Upgrades Shutdown[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mEC2 Instance Connect Host Key Harvesting[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHold until boot process finishes up[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTerminate Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mGRUB failed boot detection[0m.
+[[0;32m  OK  [0m] Started [0;1;39mModem Manager[0m.
+[[0;32m  OK  [0m] Started [0;1;39mSerial Getty on ttyS0[0m.
+         Starting [0;1;39mSet console scheme[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console scheme[0m.
+[[0;32m  OK  [0m] Created slice [0;1;39msystem-getty.slice[0m.
+[[0;32m  OK  [0m] Started [0;1;39mGetty on tty1[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mPollinate to seedâ¦seudo random number generator[0m.
+[[0;32m  OK  [0m] Started [0;1;39mHostname Service[0m.
+         Starting [0;1;39mOpenBSD Secure Shell server[0m...
+[[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
+[[0;32m  OK  [0m] Started [0;1;39mSnap Daemon[0m.
+         Starting [0;1;39mWait until snapd is fully seeded[0m...
+[[0;32m  OK  [0m] Started [0;1;39msnap.lxd.hook.instâ¦-4448-b72b-b655cad2cef4.scope[0m.
+
+
+Ubuntu 20.04.6 LTS ip-10-0-1-39 ttyS0
+
+ip-10-0-1-39 login: [[0;32m  OK  [0m] Started [0;1;39mService for snap aâ¦on-ssm-agent.amazon-ssm-agent[0m.
+         Starting [0;1;39mTime & Date Service[0m...
+[[0;32m  OK  [0m] Started [0;1;39mTime & Date Service[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mWait until snapd is fully seeded[0m.
+         Starting [0;1;39mApply the settings specified in cloud-config[0m...
+2023/07/12 07:12:31Z: Amazon SSM Agent v3.1.1927.0 is running
+2023/07/12 07:12:31Z: OsProductName: Ubuntu
+2023/07/12 07:12:31Z: OsVersion: 20.04
+[   22.199674] cloud-init[1177]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'modules:config' at Wed, 12 Jul 2023 07:12:31 +0000. Up 21.46 seconds.
+[[0;32m  OK  [0m] Finished [0;1;39mApply the settings specified in cloud-config[0m.
+         Starting [0;1;39mEC2 instance hibernation setup agent[0m...
+[[0;32m  OK  [0m] Started [0;1;39mEC2 instance hibernation setup agent[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mMulti-User System[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mGraphical Interface[0m.
+         Starting [0;1;39mExecute cloud user/final scripts[0m...
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+         Starting [0;1;39mUpdate APT News[0m...
+         Starting [0;1;39mUpdate the local ESM caches[0m...
+[   23.320648] cloud-init[1196]: Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal InRelease
+[   23.350190] cloud-init[1196]: Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+[   23.381480] cloud-init[1196]: Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+[   23.448862] cloud-init[1196]: Get:4 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+[   23.682441] cloud-init[1196]: Get:5 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
+[   23.888742] cloud-init[1196]: Get:6 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/universe Translation-en [5124 kB]
+[   24.068006] cloud-init[1196]: Get:7 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/universe amd64 c-n-f Metadata [265 kB]
+[   24.088666] cloud-init[1196]: Get:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [144 kB]
+[   24.104850] cloud-init[1196]: Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/multiverse Translation-en [104 kB]
+[   24.120640] cloud-init[1196]: Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/multiverse amd64 c-n-f Metadata [9136 B]
+[   24.152367] cloud-init[1196]: Get:11 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2686 kB]
+[   24.225385] cloud-init[1196]: Get:12 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [449 kB]
+[   24.245463] cloud-init[1196]: Get:13 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.9 kB]
+[   24.268510] cloud-init[1196]: Get:14 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [2089 kB]
+[   24.317263] cloud-init[1196]: Get:15 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [292 kB]
+[   24.336731] cloud-init[1196]: Get:16 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [548 B]
+[   24.360468] cloud-init[1196]: Get:17 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1082 kB]
+[   24.380859] cloud-init[1196]: Get:18 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [258 kB]
+[   24.396459] cloud-init[1196]: Get:19 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [25.2 kB]
+[   24.437597] cloud-init[1196]: Get:20 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [31.5 kB]
+[   24.456495] cloud-init[1196]: Get:21 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [8032 B]
+[   24.476498] cloud-init[1196]: Get:22 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [688 B]
+[   24.491998] cloud-init[1196]: Get:23 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [45.7 kB]
+[   24.511110] cloud-init[1196]: Get:24 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/main Translation-en [16.3 kB]
+[   24.528527] cloud-init[1196]: Get:25 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [1420 B]
+[   24.552486] cloud-init[1196]: Get:26 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/restricted amd64 c-n-f Metadata [116 B]
+[   24.580530] cloud-init[1196]: Get:27 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [25.0 kB]
+[   24.600554] cloud-init[1196]: Get:28 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [16.3 kB]
+[   24.624497] cloud-init[1196]: Get:29 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [880 B]
+[   24.640455] cloud-init[1196]: Get:30 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 c-n-f Metadata [116 B]
+[   24.919896] cloud-init[1196]: Get:31 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2304 kB]
+[   25.405456] cloud-init[1196]: Get:32 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [366 kB]
+[   25.420804] cloud-init[1196]: Get:33 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [13.0 kB]
+[   25.444516] cloud-init[1196]: Get:34 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1979 kB]
+[   25.501277] cloud-init[1196]: Get:35 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [277 kB]
+[   25.527639] cloud-init[1196]: Get:36 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [552 B]
+[   25.544459] cloud-init[1196]: Get:37 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [854 kB]
+[   25.564336] cloud-init[1196]: Get:38 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [177 kB]
+[   25.575582] cloud-init[1196]: Get:39 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [18.7 kB]
+[   25.596454] cloud-init[1196]: Get:40 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [29.3 kB]
+[   25.737479] cloud-init[1196]: Get:41 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [6120 B]
+[   25.813286] cloud-init[1196]: Get:42 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [620 B]
+         Starting [0;1;39mPackageKit Daemon[0m...
+[[0;32m  OK  [0m] Started [0;1;39mPackageKit Daemon[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate APT News[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate the local ESM caches[0m.
+[   33.991615] cloud-init[1196]: Fetched 27.7 MB in 6s (4867 kB/s)
+[   35.279431] cloud-init[1196]: Reading package lists...
+[   35.445891] cloud-init[1196]: Reading package lists...
+
+
+[   35.679648] cloud-init[1196]: Building dependency tree...
+[   35.688510] cloud-init[1196]: Reading state information...
+[   35.885947] cloud-init[1196]: The following additional packages will be installed:
+[   35.896223] cloud-init[1196]:   apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+[   35.903765] cloud-init[1196]:   libaprutil1-dbd-sqlite3 libaprutil1-ldap libjansson4 liblua5.2-0 ssl-cert
+[   35.916502] cloud-init[1196]: Suggested packages:
+[   35.924282] cloud-init[1196]:   apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser
+[   35.937180] cloud-init[1196]:   openssl-blacklist
+[   35.956213] cloud-init[1196]: The following NEW packages will be installed:
+[   35.968571] cloud-init[1196]:   apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+[   35.976508] cloud-init[1196]:   libaprutil1-dbd-sqlite3 libaprutil1-ldap libjansson4 liblua5.2-0 ssl-cert
+[   36.004638] cloud-init[1196]: 0 upgraded, 11 newly installed, 0 to remove and 1 not upgraded.
+[   36.012998] cloud-init[1196]: Need to get 1867 kB of archives.
+[   36.020808] cloud-init[1196]: After this operation, 8098 kB of additional disk space will be used.
+[   36.030874] cloud-init[1196]: Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/main amd64 libapr1 amd64 1.6.5-1ubuntu1 [91.4 kB]
+[   36.045496] cloud-init[1196]: Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 libaprutil1 amd64 1.6.1-4ubuntu2.1 [84.9 kB]
+[   36.060683] cloud-init[1196]: Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-4ubuntu2.1 [10.6 kB]
+[   36.080721] cloud-init[1196]: Get:4 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 libaprutil1-ldap amd64 1.6.1-4ubuntu2.1 [8756 B]
+[   36.101796] cloud-init[1196]: Get:5 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/main amd64 libjansson4 amd64 2.12-1build1 [28.9 kB]
+[   36.120577] cloud-init[1196]: Get:6 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/main amd64 liblua5.2-0 amd64 5.2.4-1.1build3 [106 kB]
+[   36.140559] cloud-init[1196]: Get:7 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-bin amd64 2.4.41-4ubuntu3.14 [1182 kB]
+[   36.160733] cloud-init[1196]: Get:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-data all 2.4.41-4ubuntu3.14 [158 kB]
+[   36.184538] cloud-init[1196]: Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-utils amd64 2.4.41-4ubuntu3.14 [84.4 kB]
+[   36.204560] cloud-init[1196]: Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2 amd64 2.4.41-4ubuntu3.14 [95.6 kB]
+[   36.228516] cloud-init[1196]: Get:11 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal/main amd64 ssl-cert all 1.0.39 [17.0 kB]
+[   36.444612] cloud-init[1196]: dpkg-preconfigure: unable to re-open stdin: No such file or directory
+[   36.493441] cloud-init[1196]: Fetched 1867 kB in 0s (16.4 MB/s)
+[   36.536083] cloud-init[1196]: Selecting previously unselected package libapr1:amd64.
+[   36.889934] cloud-init[1196]: (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 61938 files and directories currently installed.)
+[   36.948660] cloud-init[1196]: Preparing to unpack .../00-libapr1_1.6.5-1ubuntu1_amd64.deb ...
+[   36.970305] cloud-init[1196]: Unpacking libapr1:amd64 (1.6.5-1ubuntu1) ...
+[   37.022276] cloud-init[1196]: Selecting previously unselected package libaprutil1:amd64.
+[   37.033857] cloud-init[1196]: Preparing to unpack .../01-libaprutil1_1.6.1-4ubuntu2.1_amd64.deb ...
+[   37.047881] cloud-init[1196]: Unpacking libaprutil1:amd64 (1.6.1-4ubuntu2.1) ...
+[   37.092818] cloud-init[1196]: Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+[   37.104391] cloud-init[1196]: Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-4ubuntu2.1_amd64.deb ...
+[   37.119751] cloud-init[1196]: Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-4ubuntu2.1) ...
+[   37.154446] cloud-init[1196]: Selecting previously unselected package libaprutil1-ldap:amd64.
+[   37.166332] cloud-init[1196]: Preparing to unpack .../03-libaprutil1-ldap_1.6.1-4ubuntu2.1_amd64.deb ...
+[   37.179587] cloud-init[1196]: Unpacking libaprutil1-ldap:amd64 (1.6.1-4ubuntu2.1) ...
+[   37.221385] cloud-init[1196]: Selecting previously unselected package libjansson4:amd64.
+[   37.234380] cloud-init[1196]: Preparing to unpack .../04-libjansson4_2.12-1build1_amd64.deb ...
+[   37.248117] cloud-init[1196]: Unpacking libjansson4:amd64 (2.12-1build1) ...
+[   37.292373] cloud-init[1196]: Selecting previously unselected package liblua5.2-0:amd64.
+[   37.305177] cloud-init[1196]: Preparing to unpack .../05-liblua5.2-0_5.2.4-1.1build3_amd64.deb ...
+[   37.319335] cloud-init[1196]: Unpacking liblua5.2-0:amd64 (5.2.4-1.1build3) ...
+[   37.376487] cloud-init[1196]: Selecting previously unselected package apache2-bin.
+[   37.387079] cloud-init[1196]: Preparing to unpack .../06-apache2-bin_2.4.41-4ubuntu3.14_amd64.deb ...
+[   37.402319] cloud-init[1196]: Unpacking apache2-bin (2.4.41-4ubuntu3.14) ...
+[   37.601667] cloud-init[1196]: Selecting previously unselected package apache2-data.
+[   37.612739] cloud-init[1196]: Preparing to unpack .../07-apache2-data_2.4.41-4ubuntu3.14_all.deb ...
+[   37.630864] cloud-init[1196]: Unpacking apache2-data (2.4.41-4ubuntu3.14) ...
+[   37.731620] cloud-init[1196]: Selecting previously unselected package apache2-utils.
+[   37.744721] cloud-init[1196]: Preparing to unpack .../08-apache2-utils_2.4.41-4ubuntu3.14_amd64.deb ...
+[   37.761053] cloud-init[1196]: Unpacking apache2-utils (2.4.41-4ubuntu3.14) ...
+[   37.825968] cloud-init[1196]: Selecting previously unselected package apache2.
+[   37.839047] cloud-init[1196]: Preparing to unpack .../09-apache2_2.4.41-4ubuntu3.14_amd64.deb ...
+[   37.869914] cloud-init[1196]: Unpacking apache2 (2.4.41-4ubuntu3.14) ...
+[   37.966770] cloud-init[1196]: Selecting previously unselected package ssl-cert.
+[   37.978856] cloud-init[1196]: Preparing to unpack .../10-ssl-cert_1.0.39_all.deb ...
+[   37.993089] cloud-init[1196]: Unpacking ssl-cert (1.0.39) ...
+[   38.054414] cloud-init[1196]: Setting up libapr1:amd64 (1.6.5-1ubuntu1) ...
+[   38.097550] cloud-init[1196]: Setting up libjansson4:amd64 (2.12-1build1) ...
+[   38.166546] cloud-init[1196]: Setting up ssl-cert (1.0.39) ...
+[   38.579628] cloud-init[1196]: Setting up liblua5.2-0:amd64 (5.2.4-1.1build3) ...
+[   38.599040] cloud-init[1196]: Setting up apache2-data (2.4.41-4ubuntu3.14) ...
+[   38.616901] cloud-init[1196]: Setting up libaprutil1:amd64 (1.6.1-4ubuntu2.1) ...
+[   38.633392] cloud-init[1196]: Setting up libaprutil1-ldap:amd64 (1.6.1-4ubuntu2.1) ...
+[   38.651106] cloud-init[1196]: Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-4ubuntu2.1) ...
+[   38.667850] cloud-init[1196]: Setting up apache2-utils (2.4.41-4ubuntu3.14) ...
+[   38.683602] cloud-init[1196]: Setting up apache2-bin (2.4.41-4ubuntu3.14) ...
+[   38.702971] cloud-init[1196]: Setting up apache2 (2.4.41-4ubuntu3.14) ...
+[   39.424065] cloud-init[1196]: Enabling module mpm_event.
+[   39.469864] cloud-init[1196]: Enabling module authz_core.
+[   39.476669] cloud-init[1196]: Enabling module authz_host.
+[   39.515297] cloud-init[1196]: Enabling module authn_core.
+[   39.521771] cloud-init[1196]: Enabling module auth_basic.
+[   39.561168] cloud-init[1196]: Enabling module access_compat.
+[   39.599833] cloud-init[1196]: Enabling module authn_file.
+[   39.638737] cloud-init[1196]: Enabling module authz_user.
+[   39.677158] cloud-init[1196]: Enabling module alias.
+[   39.715166] cloud-init[1196]: Enabling module dir.
+[   39.753690] cloud-init[1196]: Enabling module autoindex.
+[   39.792369] cloud-init[1196]: Enabling module env.
+[   39.829727] cloud-init[1196]: Enabling module mime.
+[   39.870802] cloud-init[1196]: Enabling module negotiation.
+[   39.910501] cloud-init[1196]: Enabling module setenvif.
+[   39.950608] cloud-init[1196]: Enabling module filter.
+[   39.991279] cloud-init[1196]: Enabling module deflate.
+[   40.029871] cloud-init[1196]: Enabling module status.
+[   40.072144] cloud-init[1196]: Enabling module reqtimeout.
+[   40.114598] cloud-init[1196]: Enabling conf charset.
+[   40.154928] cloud-init[1196]: Enabling conf localized-error-pages.
+[   40.195238] cloud-init[1196]: Enabling conf other-vhosts-access-log.
+[   40.234414] cloud-init[1196]: Enabling conf security.
+[   40.272994] cloud-init[1196]: Enabling conf serve-cgi-bin.
+[   40.312178] cloud-init[1196]: Enabling site 000-default.
+[   40.471981] cloud-init[1196]: Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service â /lib/systemd/system/apache2.service.
+[   40.920819] cloud-init[1196]: Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service â /lib/systemd/system/apache-htcacheclean.service.
+         Starting [0;1;39mThe Apache HTTP Server[0m...
+[[0;32m  OK  [0m] Started [0;1;39mThe Apache HTTP Server[0m.
+[   43.183817] cloud-init[1196]: Processing triggers for ufw (0.36-6ubuntu1) ...
+[   43.275830] cloud-init[1196]: Processing triggers for systemd (245.4-4ubuntu3.22) ...
+[   43.569764] cloud-init[1196]: Processing triggers for man-db (2.9.1-1) ...
+[   44.125380] cloud-init[1196]: Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+[   45.977100] cloud-init[1196]: Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+[   45.985300] cloud-init[1196]: Executing: /lib/systemd/systemd-sysv-install enable apache2
+ci-info: no authorized SSH keys fingerprints found for user ubuntu.
+<14>Jul 12 07:12:56 cloud-init: #############################################################
+<14>Jul 12 07:12:56 cloud-init: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+<14>Jul 12 07:12:56 cloud-init: 1024 SHA256:a+2pKCrHtlWlbqNXI+ujqvjkpJuHEfdjL0eTgQsjEtw root@ip-10-0-1-39 (DSA)
+<14>Jul 12 07:12:56 cloud-init: 256 SHA256:3oR+/bx2CuiL/z1npgw50udnaceh3HktxJngw/gpB88 root@ip-10-0-1-39 (ECDSA)
+<14>Jul 12 07:12:56 cloud-init: 256 SHA256:jpP/22mgjMFH+wXMSghq0Pb31fvsR3DyXbzRU2ZS/40 root@ip-10-0-1-39 (ED25519)
+<14>Jul 12 07:12:56 cloud-init: 3072 SHA256:MPPRe2Pb1fi3wKfi/02tITLu1i4xYe5FpZHJftifE5E root@ip-10-0-1-39 (RSA)
+<14>Jul 12 07:12:56 cloud-init: -----END SSH HOST KEY FINGERPRINTS-----
+<14>Jul 12 07:12:56 cloud-init: #############################################################
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE7xNbv0yM+xXHEy784vBRG9zkutsINv7G6wRBLGECMi3Pm+3df0m9IIgjuOOxEZom9hkJWuNYXCZPf7YZWctOw= root@ip-10-0-1-39
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB6385z+Pl/vIw6HR5wrgrYoD05LXSlXcRtIfUVcCNrw root@ip-10-0-1-39
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCs6xzvgQUiFW4COdldYJTx2FgT7ZPThtzNruphdHQ6Dn+USpWPJ/GnwoRNa/2r7ZFRefEcgg82RrYFAwSAiPJpc07faa/UVGThzmDRLOSRgF/I7zIltAm9e6iGA2MVfLIyB9YagL6tZ/3+JwC2prqqTLgCyuJ5n8TtSnpal8baXvUGvA2VQGllAvkqO8KRDXeL6Tw3rOXtHUjaPF1/XhSsdny3k29Jxt3fh0OSlskIs8zqfapLEPXU551q45g3krK5zRIvfvqoslcCFW010BL0QGhqk2tOVBPbqBizb28lV5wHizeWSLvxyh68s6NiGAY88x+8FMC6fNLXWbwVXNZ5+SxDaonhuq4RzBviaLhJFtbbGJ8xCstkoWGU4EhDVcQInFgLp8lD47TmhZ02OTRebb65iNYna9POToxObA/G5jcwd0Ti9alvyYHjP3+vSpuH099PAUdUQ0aL6gTAaqI07YXzjHpAu+CV831nBP4iLwl9kcS3Jq0nte4Si/K9h0k= root@ip-10-0-1-39
+-----END SSH HOST KEY KEYS-----
+[   47.020583] cloud-init[1196]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'modules:final' at Wed, 12 Jul 2023 07:12:32 +0000. Up 22.97 seconds.
+[   47.036485] cloud-init[1196]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 finished at Wed, 12 Jul 2023 07:12:56 +0000. Datasource DataSourceEc2Local.  Up 47.01 seconds
+[[0;32m  OK  [0m] Finished [0;1;39mExecute cloud user/final scripts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mCloud-init target[0m.
